@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const dotenv = require('dotenv').config();
 
 module.exports = () => {
-  let app = express();
+  const app = express();
 
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json({}));
