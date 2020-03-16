@@ -1,4 +1,4 @@
-var soap = require('soap');
+const soap = require('soap');
 
 const url = 'http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx?wsdl';
 
